@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@font-face{font-family: montserrat; src: url(../Font/Montserrat-VariableFont_wght.ttf);}
+@font-face {font-family: bebas; src: url(../Font/BebasNeue-Regular.ttf);}
+@font-face {font-family: poppins; src: url(../Font/Poppins-Regular.ttf);}
+@font-face{font-family: inter; src: url(../Font/Inter-VariableFont_opsz\,wght.ttf);}
+#capa{height: 834px; background: linear-gradient(to right, rgb(10, 57, 114), rgb(62, 62, 62, 0.6)),url(../Img/epi_background.jpg); background-size: cover; background-repeat: no-repeat;}
+#logo{width: 213px; height: 56px; margin-top: 20px; margin-left: 50px;}
+#elemetosCapa{width: 712px; margin-left: 100px; margin-top: 40px; display: flex; flex-direction: column; align-items: center;}
+#titulo{font-family: bebas; font-size: 128px; text-align: start; color: aliceblue; font-weight: normal; line-height: 120px; margin-top: 50px;}
+#subtitulo{margin-top: 60px;}
+.texto{font-family: inter; font-size: 24px; color: aliceblue; font-weight: normal;}
+#btnConf{width: 450px; height: 82px; margin-top: 70px; border: 0; border-radius: 50px; background: linear-gradient(to right,#3A91EE, #005FC4); color: aliceblue; font-family: poppins; font-size: 36px; font-weight: 600;}
+#pagina{width: 100%; height: 830px; }
+#textoPagina{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;}
+#comoFunciona{width: 90%; height: 300px; background-color: #527EC0; color: #000000; display: flex; flex-direction: column; align-items: center; border-radius: 50px; margin-top: 70px; margin-bottom: 70px;}
+#comoFunciona p {color: #000000; z-index: 5; margin-top: 40px; width: 1000px; margin-left: 240px;}
+#comoFunciona img{height: 300px; z-index: 1; margin-left: -1050px;}
+#comoFunciona h2{z-index: 5; margin-top: -270px; margin-left: 200px; font-family: poppins; font-size: 45px;}
+#vantagens{width: 566px; height: 410px; border: 6px solid #89BBF7; margin-right: 100px; border-radius: 30px; display: flex; flex-direction: column; align-items: center;}
+#vantagens p{color: #0D3764; margin-top: 20px; line-gap-override: 50px; z-index: 5; width: 380px; margin-left: 150px;}
+#vantagens h2{color: #07193E; font-family: poppins; font-size: 40px; margin-top: -370px; z-index: 5; margin-left: 100px;}
+#vantagens img{z-index: 1; margin-left: -400px; height: 399px;}
+#beneficios{width: 566px; height: 410px; background-color: #B2CEF4; color: #000000; margin-left: 100px; border-radius: 30px;}
+#beneficios p{color: #000000; width: 350px; margin-left: 40px;}
+#beneficios h2{font-family: poppins; font-size: 64px; margin-top: -380px; margin-left: 40px;}
+#beneficios img{z-index: 1; margin-left: 450px; height: 410px;}
+#outraPagina{margin-top: 50px; background: #2B4D7F; height: 900px; display: flex; flex-direction: row; align-items: center;}
+#exProd01{width: 550px; height: 474px; border-radius: 25px; box-shadow: 20px 14px 50px 0px rgb(0, 0, 0, 0.25);}
+#exProd02{width: 456px; height: 684px; border-radius: 25px; box-shadow: 10px 10px 24px 0px rgb(0, 0, 0, 0.25);}
+#txt01{width: 519px; margin-bottom: 60px; font-family: inter; font-size: 24px;}
+#txt02{width: 528px; margin-top: 20px;}
+#caixa1{margin-left: 150px;}
+#caixa2{margin-left: 200px;}
+#rodape{height: 215px; background-color: #010B1D; display: flex; align-items: center; color: aliceblue; font-family: montserrat; font-size: 24px; justify-content: space-around;}
+#contato{display: flex; flex-direction: column; align-items: center;}
+#contato h4{margin-top: 40px;}
+#rs{display: flex; flex-direction: row; justify-content: space-around; width: 350px;}
+.lagos{width: 50px; height: 50px; margin-top: 20px;}
+#logoRodape{width: 394px; height: 104px;}
+#formulario{display: flex; flex-direction: column; align-items: center;}
+#formulario h3{font-weight: bold;}
+#formulario h4{font-weight: 400;}
+#coisa{margin-top: 25px; display: flex; }
+#coisa input{width: 303px; height: 40px; border-radius: 13px; border: 2px solid #ffffff; background-color: transparent; color: #ffffff;}
+#btnEnviar{width: 67px; height: 40px; background: linear-gradient(to right, #3A91EE, #023871); border-radius: 10px; border: none; margin-left: 10px;}
+#btnEnviar img{width: 35px; height: 35px;}
