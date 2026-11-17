@@ -96,7 +96,7 @@ img{max-width: 100%;}
   #subtitulo{margin-top: 25px;}
   .texto{font-size: 17px; line-height: 1.5;}
   #elemetosCapa a{width: 100%; display: flex; justify-content: center;}
-  #btnConf{width: 100%; max-width: 340px; height: 58px; margin-top: 35px; font-size: 22px;}
+  #btnConf{width: 100%; max-width: 340px; height: 58px; margin-top: 35px; font-size: 22px; text-decoration: none;}
 
   #textoPagina{padding: 35px 0;}
   #comoFunciona h2, #vantagens h2{font-size: 28px;}
